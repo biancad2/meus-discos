@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <h1>Lista de discos</h1>  
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Índice</th>
+            <th scope="col">Disco</th>
+            <th scope="col">Comandos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let disc of discs; index as index">
+            
+            <td>{{index}}</td>
+            <td>{{disc.title}}</td>
+            <td><a [routerLink]="['/discs', index]">Detalhes</a></td>
+            
+          </tr>
+        </tbody>
+      </table> 
+</div>

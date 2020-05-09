@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-discs"
+    }
+  },
+  "defaultProject": "my-discs",
+  "cli": {
+    "analytics": "8bdb4557-101e-4a77-9ad4-7de19f09b778"
+  }
 }
